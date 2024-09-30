@@ -1,0 +1,20 @@
+{
+  "usersdata":[
+    {
+      "firstname": "John",
+      "lastname": "Doe",
+      "cin": "AB123456"
+    },
+    {
+      "firstname": "Jane",
+      "lastname": "Smith",
+      "cin": "CD789012"
+    },
+    {
+      "firstname": "Michael",
+      "lastname": "Johnson",
+      "cin": "EF345678"
+    }
+  ]
+  
+}
