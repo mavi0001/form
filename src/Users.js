@@ -1,22 +1,16 @@
 
-import React, { useState, useEffect } from "react";
+import React from "react";
 import './App.css';
 import Details from "./Details";
 
-function Users() {
-    const [users, setUsers] = useState([]);
 
-    useEffect(() => {
-        
-        const usersData = JSON.parse(localStorage.getItem('usersdata')) || [];
-        setUsers(usersData);
-    }, []);
-
-    return (
+function Users(){
+    return(
         <div className="users">
-            <Details users={users} />
+           <Details/>
         </div>
     );
 }
 
-export default Users;
+export default Users
+
